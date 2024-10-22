@@ -35,7 +35,7 @@ public class ParcialArboles {
     }
     public boolean isLeftTree(int num){
         //Buscar un  nodo cuyo valor sea num
-        BinaryTree bt = buscarNodo(num);
+        BinaryTree<Integer> bt = buscarNodo(num,this.ab);
         int hi = -1,hd = -1;
         hi = unicoHijo(bt.getLeftChild());
         hd = unicoHijo(bt.getRightChild());
