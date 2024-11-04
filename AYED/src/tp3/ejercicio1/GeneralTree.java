@@ -56,7 +56,31 @@ public class GeneralTree<T>{
 		if (this.hasChildren())
 			children.remove(child);
 	}
-	
+
+	// Ejercicio 2 
+	// Inciso a : Numeros mayores que preorden
+
+	/**
+	 *Meotodo que retorna una lista con los elementos impares de un arbol "a" que sean mayores al valor 
+	 "n" pasados como parametros , recorrido en preorden.
+	 * @return
+	 */
+	private void numerosMayoresQuePreOrden(GeneralTree<Integer> a, Integer n, List<Integer> lista){
+			
+		if((a.getData() > n)&&(n%2 != 0)){
+			lista.add(a.getData());
+		}
+		List<GeneralTree<Integer>> children = a.getChildren();
+		
+		for(GeneralTree<Integer> child : children){	
+			numerosMayoresQuePreOrden(child, n, lista);
+		} // Recorro por cada hijo del del nodo actual
+	}
+	 public List<Integer> numerosMayoresQuePreOrden(GeneralTree<Integer> a, Integer n){
+		List<Integer> res = new LinkedList<Integer>();
+		numerosMayoresQuePreOrden(a, n, res);
+		return res;
+	}
 	public int altura() {	 
 			
 		return 0;
