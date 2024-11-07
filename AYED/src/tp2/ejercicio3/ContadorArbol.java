@@ -1,8 +1,8 @@
 package tp2.ejercicio3;
 
 import java.util.List;
+import tp2.ejercicio1.BinaryTree;
 import java.util.ArrayList;
-import tp2.ejercicio1y2.BinaryTree;
 
 public class ContadorArbol {
     /*

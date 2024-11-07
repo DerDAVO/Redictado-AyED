@@ -1,5 +1,5 @@
 package tp2.ejercicio3;
-import tp2.ejercicio1y2.BinaryTree;
+import tp2.ejercicio1.BinaryTree;
 public class PruebaMain {
     public static void main(String[] args) {
         

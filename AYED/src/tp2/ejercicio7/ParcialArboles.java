@@ -1,5 +1,5 @@
 package tp2.ejercicio7;
-import tp2.ejercicio1y2.BinaryTree;
+import tp2.ejercicio1.BinaryTree;
 public class ParcialArboles {
 
     private BinaryTree<Integer> ab;

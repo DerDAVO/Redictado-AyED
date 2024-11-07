@@ -1,4 +1,4 @@
-package tp2.ejercicio1y2;
+package tp2.ejercicio1;
 import tp1.ejercicio8.Queue;
 public class BinaryTree<T> {
     private T data;
@@ -111,4 +111,5 @@ public class BinaryTree<T> {
     }
     
 }
+
 

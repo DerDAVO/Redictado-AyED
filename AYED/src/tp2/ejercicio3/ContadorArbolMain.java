@@ -2,7 +2,7 @@ package tp2.ejercicio3;
 
 import java.util.List;
 
-import tp2.ejercicio1y2.BinaryTree;
+import tp2.ejercicio1.BinaryTree;
 
 public class ContadorArbolMain {
 
