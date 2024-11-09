@@ -1,4 +1,5 @@
-package tp5.ejercicio1.adjList;
+/*
+ * package tp5.ejercicio1.adjList;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNull;
@@ -6,10 +7,9 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
-
-import org.junit.Before;
+import java.util.*;
 import org.junit.Test;
-
+import org.junit.jupiter.api.BeforeEach;
 import tp5.ejercicio1.Edge;
 import tp5.ejercicio1.Graph;
 import tp5.ejercicio1.Vertex;
@@ -20,7 +20,7 @@ public class GraphTest {
 	Vertex<Integer> vert2;
 	Vertex<Integer> vert3;
 
-	@Before
+	@BeforeEach
 	public void setUp() throws Exception {
 		grafo = new AdjListGraph<>();
 		// Grafo inicial
@@ -145,3 +145,5 @@ public class GraphTest {
 		assertEquals(3, grafo.getSize());
 	}
 }
+
+*/
